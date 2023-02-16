@@ -1,0 +1,49 @@
+.meals {
+  display: grid;
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.meals ul {
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+}
+
+.expensesCol {
+  display: grid;
+  width:auto;
+  padding: auto;
+  height: 100%;
+
+
+  /* justify-content: space-between; */
+  /* background-color: black; */
+}
+
+.cartAlign {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cartAdd {
+  align-items: end;
+  padding-inline-start: 10rem;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,12 @@
+footer {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background: #696363;
+  color: white;
+  margin: auto;
+  padding-top: 9px;
+  padding-bottom: 3%;
+  width: auto;
+  height: 30px;
+}
