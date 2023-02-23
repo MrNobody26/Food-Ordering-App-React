@@ -26,6 +26,15 @@
   /* background-color: black; */
 }
 
+.isLoading{
+  text-align: center;
+  color: white;
+}
+
+.mealsError{
+  text-align: center;
+  color: red;
+}
 .cartAlign {
   display: grid;
   grid-template-columns: 1fr 1fr;
