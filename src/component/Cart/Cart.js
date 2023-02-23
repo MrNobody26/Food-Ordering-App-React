@@ -36,6 +36,7 @@ const Cart = (props) => {
 
     setIsSubmitting(false);
     setOrderConfirmed(true);
+    cartCtx.clearItem();
   };
 
   const totalAmount = `💲${cartCtx.totalAmount.toFixed(2)}`;
