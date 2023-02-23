@@ -4,6 +4,7 @@ import Footer from "./component/Meals/MealItem/Footer";
 import Meals from "./component/Meals/Meals";
 import Cart from "./component/Cart/Cart";
 import CartProvider from "./store/CartProvider";
+
 function App() {
   const [showCart, setCartShow] = useState(false);
 
